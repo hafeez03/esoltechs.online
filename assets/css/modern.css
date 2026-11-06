@@ -352,3 +352,27 @@ textarea {
 }
 
 .footer .footer-newsletter p:last-child { margin-bottom: 0; }
+
+
+/* ESOLTECH refreshed brand system */
+:root {
+  --background-color: #f7faff;
+  --surface-color: #ffffff;
+  --default-color: #14243b;
+  --heading-color: #0b1d36;
+  --accent-color: #087f8c;
+  --nav-color: #263c55;
+  --nav-hover-color: #087f8c;
+}
+.header { background: rgba(255,255,255,.94); }
+.header .site-logo { display:block; width: 230px; max-height: 62px; object-fit: contain; }
+.footer { background: #071a35; color: #e8f1fb; }
+.footer h4, .footer .sitename { color: #fff; }
+.footer a { transition: color .2s ease; }
+.footer a:hover { color: #39d7cf; }
+.hero .hero-swiper { border: 1px solid rgba(8,127,140,.16); }
+.hero .hero-swiper-img { object-fit: cover; }
+.menu .menu-item img { width: 100%; aspect-ratio: 16/10; object-fit: cover; border-radius: 18px !important; box-shadow: 0 14px 36px rgba(7,26,53,.10); }
+.info-item, .menu .menu-item { transition: transform .25s ease, box-shadow .25s ease; }
+.menu .menu-item:hover { transform: translateY(-5px); }
+@media (max-width: 575px) { .header .site-logo { width: 190px; max-height: 54px; } }
